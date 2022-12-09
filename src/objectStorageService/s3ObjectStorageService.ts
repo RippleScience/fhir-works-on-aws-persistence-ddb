@@ -3,7 +3,7 @@
  *  SPDX-License-Identifier: Apache-2.0
  */
 
-import { GenericResponse } from 'fhir-works-on-aws-interface';
+import { GenericResponse } from '@ripplescience/fhir-works-on-aws-interface';
 import { S3, FHIR_BINARY_BUCKET, S3_KMS_KEY } from './s3';
 import ObjectStorageInterface from './objectStorageInterface';
 import ObjectNotFoundError from './ObjectNotFoundError';

@@ -3,7 +3,7 @@
  *  SPDX-License-Identifier: Apache-2.0
  */
 
-import { ExportJobStatus, InitiateExportRequest } from 'fhir-works-on-aws-interface';
+import { ExportJobStatus, InitiateExportRequest } from '@ripplescience/fhir-works-on-aws-interface';
 import { QueryInput } from 'aws-sdk/clients/dynamodb';
 import {
     DynamoDBConverter,

@@ -10,7 +10,7 @@ import {
     TypeOperation,
     SystemOperation,
     isResourceDeletedError,
-} from 'fhir-works-on-aws-interface';
+} from '@ripplescience/fhir-works-on-aws-interface';
 import { DynamoDB } from 'aws-sdk';
 import { buildHashKey, DOCUMENT_STATUS_FIELD, DynamoDbUtil } from './dynamoDbUtil';
 import DOCUMENT_STATUS from './documentStatus';

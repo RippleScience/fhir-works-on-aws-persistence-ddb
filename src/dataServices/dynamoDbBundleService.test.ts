@@ -16,7 +16,7 @@ import {
     TypeOperation,
     ResourceNotFoundError,
     ResourceDeletedError,
-} from 'fhir-works-on-aws-interface';
+} from '@ripplescience/fhir-works-on-aws-interface';
 import { DynamoDbBundleService } from './dynamoDbBundleService';
 import { DynamoDBConverter } from './dynamoDb';
 import { timeFromEpochInMsRegExp, utcTimeRegExp, uuidRegExp } from '../../testUtilities/regExpressions';

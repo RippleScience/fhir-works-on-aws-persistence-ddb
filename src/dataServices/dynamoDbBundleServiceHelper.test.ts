@@ -4,7 +4,7 @@
  */
 import * as AWSMock from 'aws-sdk-mock';
 import AWS from 'aws-sdk';
-import { BatchReadWriteRequest, BatchReadWriteResponse } from 'fhir-works-on-aws-interface';
+import { BatchReadWriteRequest, BatchReadWriteResponse } from '@ripplescience/fhir-works-on-aws-interface';
 import sinon = require('sinon');
 import { QueryInput } from 'aws-sdk/clients/dynamodb';
 import DynamoDbBundleServiceHelper from './dynamoDbBundleServiceHelper';

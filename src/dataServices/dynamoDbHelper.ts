@@ -4,7 +4,7 @@
  */
 
 import DynamoDB, { ItemList } from 'aws-sdk/clients/dynamodb';
-import { GenericResponse, ResourceNotFoundError, ResourceDeletedError } from 'fhir-works-on-aws-interface';
+import { GenericResponse, ResourceNotFoundError, ResourceDeletedError } from '@ripplescience/fhir-works-on-aws-interface';
 import DynamoDbParamBuilder from './dynamoDbParamBuilder';
 import { DynamoDBConverter } from './dynamoDb';
 import DOCUMENT_STATUS from './documentStatus';

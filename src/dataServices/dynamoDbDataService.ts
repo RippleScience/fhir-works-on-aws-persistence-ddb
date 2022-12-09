@@ -31,7 +31,7 @@ import {
     UpdateResourceRequest,
     vReadResourceRequest,
     ResourceDeletedError,
-} from 'fhir-works-on-aws-interface';
+} from '@ripplescience/fhir-works-on-aws-interface';
 import DynamoDB, { ItemList } from 'aws-sdk/clients/dynamodb';
 import { difference } from 'lodash';
 import { DynamoDBConverter } from './dynamoDb';

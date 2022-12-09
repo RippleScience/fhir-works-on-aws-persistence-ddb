@@ -17,7 +17,7 @@ import {
     GenericResponse,
     isResourceDeletedError,
     isResourceNotFoundError,
-} from 'fhir-works-on-aws-interface';
+} from '@ripplescience/fhir-works-on-aws-interface';
 import flatten from 'flat';
 import { chunk, set } from 'lodash';
 import mapValues from 'lodash/mapValues';

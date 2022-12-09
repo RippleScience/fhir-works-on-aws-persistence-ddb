@@ -26,8 +26,8 @@ import {
     isInvalidResourceError,
     UnauthorizedError,
     ResourceDeletedError,
-} from 'fhir-works-on-aws-interface';
-import { TooManyConcurrentExportRequestsError } from 'fhir-works-on-aws-interface/lib/errors/TooManyConcurrentExportRequestsError';
+} from '@ripplescience/fhir-works-on-aws-interface';
+import { TooManyConcurrentExportRequestsError } from '@ripplescience/fhir-works-on-aws-interface/lib/errors/TooManyConcurrentExportRequestsError';
 import each from 'jest-each';
 import { FWOA_CODESYSTEM_SYSTEM, FWOA_CODESYSTEM_DELETE_HISTORY_CODE } from '../constants';
 // eslint-disable-next-line import/no-extraneous-dependencies

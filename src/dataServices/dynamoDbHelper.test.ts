@@ -1,7 +1,7 @@
 import { QueryInput } from 'aws-sdk/clients/dynamodb';
 import AWS from 'aws-sdk';
 import * as AWSMock from 'aws-sdk-mock';
-import { ResourceNotFoundError, ResourceDeletedError } from 'fhir-works-on-aws-interface';
+import { ResourceNotFoundError, ResourceDeletedError } from '@ripplescience/fhir-works-on-aws-interface';
 import { cloneDeep } from 'lodash';
 import { DynamoDBConverter } from './dynamoDb';
 import DynamoDbHelper from './dynamoDbHelper';
