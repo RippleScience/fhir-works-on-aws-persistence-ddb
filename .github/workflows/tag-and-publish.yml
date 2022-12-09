@@ -26,6 +26,4 @@ jobs:
           git ls-remote --exit-code --tags origin $NEW_VERSION || git tag $NEW_VERSION
           git push origin --tags
       - name: Publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{secrets.NPM_TOKEN}}
+        run: npm publish
